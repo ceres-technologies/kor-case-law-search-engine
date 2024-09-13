@@ -1,0 +1,12 @@
+pandas
+beautifulsoup4
+pymysql
+opensearch-py
+openai
+python-mecab-kor
+Flask
+flask-cors
+scikit-learn
+flask-socketio
+sineps
+cohere

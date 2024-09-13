@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+em {
+  font-weight: 500;
+  color: #1869b9;
+  font-style: normal;
+}
+
+/* Style the footnotes section. */
+.footnotes {
+  font-size: smaller;
+  color: #8b949e;
+  border-top: 1px solid #30363d;
+}
+
+/* Hide the section label for visual users. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  word-wrap: normal;
+  border: 0;
+}
+
+/* Place `[` and `]` around footnote references. */
+[data-footnote-ref]::before {
+  content: "[";
+}
+
+[data-footnote-ref]::after {
+  content: "]";
+}
+
+blockquote {
+  color: #666;
+  margin: 0;
+  padding-left: 1em;
+  border-left: 0.5em #eee solid;
+}
+
+li {
+  margin-left: 1em;
+}
+
+ol {
+  margin-top: 0em;
+}
+
+.ql-picker {
+  &.ql-size {
+    .ql-picker-options {
+      height: 150px;
+      overflow: auto;
+
+      .ql-picker-item {
+        &:not(&:first-child) {
+          &::before {
+            content: attr(data-value);
+          }
+        }
+      }
+    }
+
+    .ql-picker-label[data-value] {
+      &::before {
+        content: attr(data-value);
+      }
+    }
+  }
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+.external_search_markdown {
+  font-size: 0.9em;
+}
+.external_search_markdown h1 {
+  font-size: 1.3em;
+}
+
+.external_search_markdown h2 {
+  font-size: 1.2em;
+  margin: 0.5em 0;
+}
+
+.external_search_markdown h3 {
+  font-size: 1.15em;
+  margin: 0.5em 0;
+}
+
+.external_search_markdown h4 {
+  font-size: 1em;
+  margin: 0.5em 0;
+}
+
+.external_search_markdown h5 {
+  font-size: 0.9em;
+}
+.external_search_markdown p {
+  font-size: 0.9em;
+}
+.external_search_markdown li {
+  font-size: 0.9em;
+}

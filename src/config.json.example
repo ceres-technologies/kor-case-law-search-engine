@@ -1,0 +1,21 @@
+{
+    "law_api_id": "example",
+    "database": {
+      "DB_NAME": "legal_case_search",
+      "USER": "admin",
+      "PASSWORD": "example",
+      "HOST": "example.rds.amazonaws.com",
+      "PORT": "3306"
+    },
+    "opensearch": {
+      "host": "example.es.amazonaws.com",
+      "id": "admin",
+      "password": "example",
+      "index": "cases"
+    },
+    "chunk_size": 512,
+    "overlap_size": 100,
+    "openai_api_key": "sk-proj-example",
+    "sineps_api_key": "example",
+    "cohere_api_key": "example"
+}

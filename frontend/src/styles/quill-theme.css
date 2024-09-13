@@ -1,0 +1,16 @@
+.ql-editor h1 {
+  font-size: 2.5rem;
+}
+
+.ql-editor h2 {
+  font-size: 2rem;
+}
+
+.ql-editor p {
+  font-size: 1rem;
+}
+
+.ql-editor em {
+  color: silver;
+  font-style: italic;
+}
