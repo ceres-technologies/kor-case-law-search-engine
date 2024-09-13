@@ -30,5 +30,6 @@ A Korean legal case search engine that offers semantic search, advanced query pr
 
 ### 5. Running the frontend
 1. `$cd frontend`
-2. `$npm start`
+2. `$npm install`
+3. `$npm start`
 
